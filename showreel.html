@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>willclothierfilms - Showreel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Mulish", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+      }
+
+      #header {
+        position: fixed;
+        top: 0;
+        padding: 24px;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        z-index: 1;
+      }
+
+      #header-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .header-link {
+        color: black;
+        text-decoration: none;
+        font-size: 2em;
+        display: flex;
+        flex-direction: row;
+      }
+
+      #header-right > .header-link {
+        margin-left: 24px;
+      }
+
+      #header-right > .header-link:hover {
+        text-decoration: underline;
+        text-decoration-thickness: from-font;
+        text-underline-offset: 6px;
+      }
+
+      .header-img {
+        height: 1em;
+        align-self: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+        <div id="header-left">
+            <a class="header-link" href="index.html">willclothierfilms</a>
+        </div>
+        <div id="header-right">
+            <a class="header-link" href="index.html">Home</a
+            ><a class="header-link" href="showreel.html">Showreel</a
+            ><a class="header-link" target="_blank" href="https://instagram.com/willclothierphoto"><img src="ig_logo_b.png" class="header-img"></img></a><a class="header-link" target="_blank" href="https://www.linkedin.com/in/will-clothier-a06543152/"><img style="border-radius: 8px;" src="li_logo_b.png" class="header-img"></img></a>
+        </div>
+    </div>
+
+    <div style="padding: 56.25% 0 0 0; position: relative">
+      <iframe
+        src="https://player.vimeo.com/video/867634874?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        style="position: absolute; top: 20%; left: 20%; width: 60%; height: 60%"
+        title="Will Clothier - Showreel 2025"
+      ></iframe>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+  </body>
+</html>
